@@ -3,8 +3,8 @@ class BeeAiFactConsolidator < Formula
 
   desc "Tool to consolidate and deduplicate facts from Bee AI using clustering and a local LLM"
   homepage "https://github.com/imatson9119/bee-ai-fact-consolidator"
-  url "https://github.com/imatson9119/bee-ai-fact-consolidator/archive/refs/tags/v0.5.0.tar.gz"
-  sha256 "381f157adecb174320131cb9309464dcab2475a7bfd42213466c96fefdb4d193"
+  url "https://github.com/imatson9119/bee-ai-fact-consolidator/archive/refs/tags/v0.6.0.tar.gz"
+  sha256 "7d07791e5d098e3766e3f4d4bd477ba10aeb0303140bfbb4673a8c6dab0914ab"
   license "MIT"
 
   depends_on "gcc" # For Fortran libraries
@@ -31,8 +31,8 @@ class BeeAiFactConsolidator < Formula
   end
 
   resource "openai" do
-    url "https://files.pythonhosted.org/packages/75/d1/06a969e3b15429873d52cb2ca8ad9b2c3b28bcf977ba6796dbaef13f5b95/openai-1.14.0-py3-none-any.whl"
-    sha256 "5c9fd3a59f5cbdb4020733ddf79a22f6b7a36d561968cb3f3dd255cdd263d9fe"
+    url "https://files.pythonhosted.org/packages/ba/db/7bab832be24631a793492c1c61ecbf029018b99696f435db3b63d690bf1c/openai-1.65.4-py3-none-any.whl"
+    sha256 "15566d46574b94eae3d18efc2f9a4ebd1366d1d44bfc1bdafeea7a5cf8271bcb"
   end
 
   resource "numpy" do

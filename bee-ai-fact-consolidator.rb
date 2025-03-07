@@ -3,7 +3,7 @@ class BeeAiFactConsolidator < Formula
 
   desc "Tool to consolidate and deduplicate facts from Bee AI using clustering and a local LLM"
   homepage "https://github.com/imatson9119/bee-ai-fact-consolidator"
-  url "https://github.com/imatson9119/bee-ai-fact-consolidator/archive/refs/tags/v0.4.0.tar.gz"
+  url "https://github.com/imatson9119/bee-ai-fact-consolidator/archive/refs/tags/v0.5.0.tar.gz"
   sha256 "e76836605fc343b7edbcc4a3059c439f683e0b38b4e296a1e7851caeaa340a92"
   license "MIT"
 
